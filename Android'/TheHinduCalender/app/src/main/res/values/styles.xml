@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="hCalenderHeadersStyle">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="fontFamily">@font/product_sans_medium</item>
+        <item name="background">@drawable/h_calender_headers_name_orange_bg</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="styleForHomePageCalenderChildren">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="fontFamily">@font/product_sans_medium</item>
+        <item name="background">@drawable/h_calender_children_bg</item>
+        <item name="android:textColor">@color/g_black_primary</item>
+    </style>
+
+    <style name="mainCalenderHeadersStyle">
+
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingBottom">9sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="paddingStart">50dp</item>
+        <item name="paddingEnd">50dp</item>
+        <item name="fontFamily">@font/product_sans_regular</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="styleForMainCalenderMonthNameChildPrimary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginBottom">9sp</item>
+        <item name="fontFamily">@font/product_sans_regular</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:layout_marginStart">2dp</item>
+        <item name="android:layout_marginEnd">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">
+            @color/grey_text_color_for_main_calender_children_month_text
+        </item>
+        <item name="maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="styleForMainCalenderMonthNameChildSecondary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="fontFamily">@font/product_sans_regular</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:layout_marginStart">2dp</item>
+        <item name="android:layout_marginEnd">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:verticalSpacing">0dp</item>
+        <item name="android:textColor">
+            @color/grey_text_color_for_main_calender_children_month_text
+        </item>
+        <item name="maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+
+    </style>
+
+
+
+    <style name="styleForMainCalenderChildrenContainer">
+
+        <item name="android:layout_marginStart">0.5dp</item>
+        <item name="android:layout_marginEnd">0.5dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">@drawable/g_white_ripple_effect</item>
+
+    </style>
+
+    <style name="styleForMainCalenderDateTextChild">
+
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="fontFamily">@font/product_sans_medium</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">
+            @color/grey_text_color_for_main_calender_children_date_index
+        </item>
+        <item name="android:textSize">13sp</item>
+
+    </style>
+
+    <style name="styleForMainCalenderFestivalNameChild">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="maxLines">1</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontFamily">@font/product_sans_regular</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">
+            @color/g_orange
+        </item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slogan_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/h_slogan_header_bg"
+    android:orientation="vertical"
+    android:paddingBottom="22dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/h_quote_sign"
+        android:src="@drawable/h_commas_icon_for_quote_of_the_day_layot" />
+
+    <TextView
+        android:id="@+id/quoteOfTheDayTextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/product_sans_medium"
+        android:text="@string/h_quote_of_the_day_text"
+        android:textColor="@color/g_grey_text_color_two"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/product_sans_regular"
+        android:textAlignment="center"
+        android:textColor="@color/g_orange"
+        android:textSize="30sp"
+        tools:text="Whoever is happy will make others happy, too." />
+
+
+    <TextView
+        android:id="@+id/authorNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/product_sans_medium"
+        android:textColor="@color/g_grey_text_color_two"
+        android:textSize="12sp"
+        tools:text="- Anne Frank" />
+
+
+</LinearLayout>
+
+

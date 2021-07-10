@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="45dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/widgetContainer"
+        android:layout_width="135dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/g_white_ripple_effect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/widgetPreviewImageWidgetList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/w_widget_preview_image"
+                android:src="@color/g_orange_for_bg"
+                android:scaleType="centerCrop"
+                android:transitionName="widgetPreviewImageT" />
+
+            <ImageView
+                android:id="@+id/scrimLayerWidgetList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/w_widgets_list_item_scrim"
+                android:transitionName="scrimLayerWidgetList"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/widgetAccessTypeStatusTitleInWidgetsListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="@font/product_sans_black"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:transitionName="widgetAccessTypeStatusTitleInWidgetsListItemT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="SmallSp"
+                tools:text="WATCH AD" />
+
+            <TextView
+                android:id="@+id/widgetAccessTypeStatusDescriptionInWidgetsListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:textColor="@color/white_primary_text_color"
+                android:textSize="6sp"
+                android:transitionName="widgetAccessTypeStatusDescriptionInWidgetsListItemT"
+                app:layout_constraintBottom_toTopOf="@id/widgetAccessTypeStatusTitleInWidgetsListItem"
+                app:layout_constraintStart_toStartOf="@id/widgetAccessTypeStatusTitleInWidgetsListItem"
+                tools:ignore="SmallSp"
+                tools:text="watch AD to \nreceive this cool\nwidget for free" />
+
+
+            <ImageView
+                android:id="@+id/playAdButtonWidgetList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/w_ic_play_ad_icon"
+                android:transitionName="playButtonT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="ContentDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

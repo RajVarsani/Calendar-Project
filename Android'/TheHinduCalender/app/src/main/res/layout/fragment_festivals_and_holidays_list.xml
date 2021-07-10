@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayoutFestivalsListPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.factor.bouncy.BouncyRecyclerView
+            android:id="@+id/festivalsListRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintTop_toBottomOf="@id/coordinatorLayoutFestivalsListPage"
+            tools:listItem="@layout/item_dessert" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:elevation="0dp">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fitsSystemWindows="true"
+                app:contentScrim="@color/white"
+                app:expandedTitleMarginStart="20dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:scrimAnimationDuration="200">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="130dp"
+                    app:layout_anchor="@+id/appbar"
+                    app:layout_anchorGravity="bottom|right|end"
+                    app:layout_collapseMode="parallax">
+
+
+                    <TextView
+                        android:id="@+id/festivalsListHeading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/product_sans_medium"
+                        android:paddingHorizontal="30dp"
+                        android:text="@string/f_festivals_and_holidays"
+                        android:textColor="@color/g_orange"
+                        android:textSize="22sp"
+                        app:layout_collapseMode="parallax"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        android:id="@+id/festivalsListDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/product_sans_medium"
+                        android:maxLines="2"
+                        android:paddingHorizontal="30dp"
+                        android:text="@string/festivals_brief"
+                        android:textAlignment="center"
+                        android:textColor="@color/grey_text_color_three"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/festivalsListHeading" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/header"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:background="@drawable/bg_temp"-->
+                <!--                    android:fitsSystemWindows="true"-->
+                <!--                    android:scaleType="centerCrop"-->
+                <!--                    app:layout_collapseMode="parallax" />-->
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="80dp"-->
+                <!--                    android:layout_gravity="top"-->
+                <!--                    android:background="@drawable/scrim_top"-->
+                <!--                    android:fitsSystemWindows="true" />-->
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="160dp"-->
+                <!--                    android:layout_gravity="bottom"-->
+                <!--                    android:background="@drawable/scrim" />-->
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/mainToolbarInFestivalsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/g_borders"
+                        app:layout_constraintBottom_toBottomOf="@id/monthNameInFestivalsList"
+                        app:layout_constraintTop_toTopOf="@id/monthNameInFestivalsList" />
+
+                    <TextView
+                        android:id="@+id/monthNameInFestivalsList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/g_orange_bg_for_month_name_and_buttons"
+                        android:fontFamily="@font/product_sans_medium"
+                        android:paddingHorizontal="50dp"
+                        android:paddingVertical="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        app:fabSize="normal"
+                        app:layout_anchorGravity="center"
+                        app:layout_collapseMode="pin"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="January" />
+
+
+                    <ImageButton
+                        android:id="@+id/prevBtnForFestivalsList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/g_orange_bg_for_month_name_and_buttons"
+                        android:contentDescription="@string/g_button_to_change_calender_month_to_previous_month"
+                        android:foreground="@drawable/g_white_ripple_effect"
+                        android:paddingHorizontal="14dp"
+                        android:paddingVertical="12dp"
+                        android:src="@drawable/g_ic_prev_btn"
+                        app:layout_constraintBottom_toBottomOf="@id/monthNameInFestivalsList"
+                        app:layout_constraintEnd_toStartOf="@id/monthNameInFestivalsList"
+                        app:layout_constraintHorizontal_bias="0.85"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/monthNameInFestivalsList" />
+
+                    <ImageButton
+                        android:id="@+id/nextBtnForFestivalsList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/g_orange_bg_for_month_name_and_buttons"
+                        android:contentDescription="@string/g_button_to_change_calender_month_to_next_month"
+                        android:foreground="@drawable/g_white_ripple_effect"
+                        android:paddingHorizontal="14dp"
+                        android:paddingVertical="12dp"
+                        android:src="@drawable/g_ic_next_btn"
+                        app:layout_constraintBottom_toBottomOf="@id/monthNameInFestivalsList"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.15"
+                        app:layout_constraintStart_toEndOf="@id/monthNameInFestivalsList"
+                        app:layout_constraintTop_toTopOf="@id/monthNameInFestivalsList" />
+
+                    <View
+                        android:id="@+id/lineFestivalsListTop"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="21dp"
+                        android:background="@color/g_grey_text_color_one"
+                        app:layout_constraintTop_toBottomOf="@id/monthNameInFestivalsList" />
+
+
+                    <LinearLayout
+                        android:id="@+id/swapFestivalsListChoiceContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="@drawable/white_ripple_effect_for_list_filter_choice"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
+                        app:layout_constraintTop_toBottomOf="@id/lineFestivalsListTop">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="55">
+
+                            <TextView
+                                android:id="@+id/currentChoiceForFestivalsListDisplayingTextView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end|center_vertical"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:paddingVertical="0dp"
+                                android:paddingEnd="8dp"
+                                android:text="@string/f_show_all"
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/g_grey_text_color_one"
+                                android:textSize="13sp"
+                                app:layout_constraintBottom_toBottomOf="@id/swapIcon"
+                                app:layout_constraintEnd_toStartOf="@id/swapIcon"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@id/swapIcon"
+                                tools:ignore="NestedWeights,RtlSymmetry" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/swapIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/white"
+                                android:contentDescription="@string/f_sign_for_swapping_festivals_list_filter"
+                                android:src="@drawable/f_ic_swap_btn"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/lineFestivalsListTop" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:id="@+id/lineFestivalsListBottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/g_grey_text_color_one"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/swapFestivalsListChoiceContainer" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

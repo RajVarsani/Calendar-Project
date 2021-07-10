@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Default Colors-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--Extra Colors -->
+
+    <!-- Few Global colors -->
+    <color name="g_grey_text_color_one">#707070</color>
+    <color name="g_grey_text_color_two">#8A8A8A</color>
+    <color name="g_grey_text_color_secondary">#707070</color>
+    <color name="g_orange">#FF6F00</color>
+    <color name="g_borders">#292929</color>
+    <color name="g_black_primary">#99000000</color>
+    <color name="g_white_for_ripple">#80FFFFFF</color>
+    <color name="g_link_blue" >#6586FD</color>
+
+
+    <!-- Home Page colors -->
+    <color name="h_yellow_for_gradient">#FFDD00</color>
+    <color name="h_yellow_text_for_current_day_data_title">#FFE600</color>
+    <color name="g_orange_for_bg">#FF7F02</color>
+    <color name="grey_text_color_three">#BCBCBC</color>
+    <color name="sunday_red">#FFEEEE</color>
+
+    <color name="grey_text_color_for_main_calender_children_month_text">#8C8C8C</color>
+    <color name="grey_text_color_for_main_calender_children_date_index">#CC000000</color>
+    <color name="orange_for_speciality_bg">#1AFF7F02</color>
+
+
+    <color name="green_faded_for_festivals_list">#ECFFEB</color>
+    <color name="green_dark_for_festivals_list">#18A735</color>
+    <color name="orange_faded_for_festivals_list">#FFFEF5</color>
+    <color name="orange_dark_for_festivals_list">#A74318</color>
+    <color name="blue_faded_for_festivals_list">#F5FEFF</color>
+    <color name="blue_dark_for_festivals_list">#1C8AB9</color>
+    <color name="grey_text_color_for_main_calender_children_date_index_null">#C7C7C7</color>
+
+    <color name="ring_color_for_bank_holiday_in_calender">#FF0000</color>
+    <color name="solid_color_for_amas_in_calender">#DE000000</color>
+    <color name="solid_color_for_fast_in_calender">#0A9300</color>
+    <color name="white_primary_text_color">#C7C7C7</color>
+    <color name="speciality_orange">#FFF3E9</color>
+    <color name="w_scrim_color">#202020</color>
+
+
+</resources>

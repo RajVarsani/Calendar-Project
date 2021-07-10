@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:id="@+id/dataContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/home_page_speciality_list_item_bg"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/daySpecialityName"
+            tools:text="New Year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/product_sans_medium"
+            android:textColor="@color/g_orange"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daySpecialityDescription"
+            tools:ignore="SmallSp"
+            tools:text="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elite. Suspense Eu Nisei Facilities, Placer Enum Id,  Ac "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/product_sans_medium"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@color/g_grey_text_color_one"
+            android:textSize="9sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

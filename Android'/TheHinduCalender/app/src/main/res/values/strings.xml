@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">The Hindu Calender</string>
+
+    <!-- Global Strings -->
+
+    <string name="g_calender">Calender</string>
+    <string name="g_sunday">S</string>
+    <string name="g_monday">M</string>
+    <string name="g_tuesday">T</string>
+    <string name="g_wednesday">W</string>
+    <string name="g_thursday">T</string>
+    <string name="g_friday">F</string>
+    <string name="g_saturday">S</string>
+    <string name="g_button_to_change_calender_month_to_next_month">Button to Change calender month to next month</string>
+    <string name="g_button_to_change_calender_month_to_previous_month">Button to Change calender month to Previous month</string>
+    <string name="g_about_us">About Us</string>
+    <string name="g_rate_us">Rate Us</string>
+
+
+    <!--Strings Related to Home page-->
+
+    <string name="h_quote_sign">Quote sign</string>
+    <string name="h_quote_of_the_day_text">Quote of the day</string>
+    <string name="h_zodiac_sign">Zodiac \nSign</string>
+    <string name="h_sunrise_img_description">sun image representing sunrise</string>
+    <string name="h_sunset_img_description">moon image representing sunset</string>
+    <string name="h_sunrise">Sunrise</string>
+    <string name="h_sunset">Sunset</string>
+    <string name="h_current">Current</string>
+    <string name="h_next">Next</string>
+    <string name="h_arrow_description_choghadiya">arrow to direct towards next choghadiya</string>
+    <string name="h_choghadiya_heading">Choghadiya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="f_festivals_and_holidays">Festivals And Holidays</string>
+    <string name="festivals_brief">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Eu Nisi Facilisis, Placerat</string>
+    <string name="f_show_all">Show All</string>
+    <string name="f_sign_for_swapping_festivals_list_filter">sign For swapping festivals list filter</string>
+    <string name="festival_related_image">festival related image</string>
+    <string name="scrim_layer_content_description_for_festivals_list_scrim">scrim layer</string>
+    <string name="scrim_for_holidays_list_image_bottom">scrim bottom</string>
+    <string name="borders_for_image_of_the_festival">borders for image of the festival</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="w_widget">Widgets</string>
+    <string name="widget_description">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Eu Nisi Facilisis, Placerat Enim Id, Malesuada Turpis. Sed Vehicula Libero At Malesuada Vehicula. Etiam Laoreet Metus Ut Nibh Scelerisque Maximus. Sed Et</string>
+    <string name="w_widget_preview_image">widget Preview Image</string>
+    <string name="ew_add_this">ADD THIS</string>
+    <string name="ew_to_home_page">TO HOME PAGE</string>
+
+
+</resources>

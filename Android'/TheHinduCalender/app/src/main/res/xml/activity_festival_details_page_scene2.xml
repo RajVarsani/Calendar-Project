@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto"
+  >
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+
+        <OnSwipe
+            motion:dragDirection="dragUp"
+            motion:dragScale="5"
+            motion:touchAnchorId="@id/festivalDescriptionContainer"
+            motion:touchAnchorSide="top" />
+
+
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:framePosition="60"
+                android:alpha="0.8"
+                motion:motionTarget="@id/festivalOrHolidayImageImageView">
+            </KeyAttribute>
+            <KeyAttribute
+                motion:framePosition="90"
+                android:alpha="0.0"
+                motion:motionTarget="@id/festivalOrHolidayImageImageView">
+            </KeyAttribute>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+
+        <Constraint
+            android:id="@+id/festivalOrHolidayImageImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0.1pt"
+            android:alpha="0"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/festivalDescriptionFestivalDetailPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+
+</MotionScene>

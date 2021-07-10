@@ -1,0 +1,217 @@
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutDescription="@xml/activity_festival_details_page_scene2"
+    app:layout_scrollFlags="scroll">
+
+    <!--    <androidx.constraintlayout.motion.widget.MotionLayout-->
+    <!--        android:id="@+id/coordinatorLayoutFestivalsDescriptionPage"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:fitsSystemWindows="true"-->
+    <!--        android:minHeight="50dp"-->
+    <!--        app:layoutDescription="@xml/activity_festival_details_page_scene"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways">-->
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/festivalOrHolidayImageImageView"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="300dp"-->
+    <!--            android:alpha="1"-->
+    <!--            android:contentDescription="@string/festival_related_image"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            android:transitionName="FestivalImageT"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            tools:src="@color/g_orange_for_bg" />-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/festivalNameFestivalDescriptionPage"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="60dp"-->
+    <!--            android:background="@drawable/g_orange_bg_for_month_name_and_buttons"-->
+    <!--            android:fontFamily="@font/product_sans_medium"-->
+    <!--            android:gravity="center"-->
+    <!--            android:paddingHorizontal="50dp"-->
+    <!--            android:text="Holi"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="25sp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@id/festivalOrHolidayImageImageView"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/festivalOrHolidayImageImageView" />-->
+
+
+    <!--    </androidx.constraintlayout.motion.widget.MotionLayout>-->
+    <com.factor.bouncy.BouncyNestedScrollView
+        android:id="@+id/festivalDescriptionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/festivalOrHolidayImageImageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/festivalNameFestivalDescriptionPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="100dp"
+                android:fontFamily="@font/product_sans_medium"
+                android:text="Holi"
+                android:textColor="@color/g_black_primary"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+
+            <TextView
+                android:id="@+id/currentDayTextFestivalDetailPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textAlignment="textStart"
+                android:textSize="9sp"
+                android:layout_marginTop="20dp"
+                tools:ignore="SmallSp"
+                tools:text="20/1/2021-FRI" />
+
+
+            <TextView
+                android:id="@+id/festivalDescriptionFestivalDetailPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="2dp"
+                android:textSize="15sp"
+                tools:text="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Eu Nisi Facilisis, Placerat Enim Id, Malesuada Turpis. Sed Vehicula Libero At Malesuada Vehicula. Etiam Laoreet Metus Ut Nibh Scelerisque Maximus. Sed Et Imperdiet Lectus, Et Sagittis Metus. Proin Vitae \n\nEuismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac\n\n\n Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis Ante. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Eu Nisi Facilisis, Placerat Enim Id, Malesuada Turpis. Sed Vehicula Libero At Malesuada Vehicula. Etiam Laoreet Metus Ut Nibh Scelerisque Maximus. Sed Et Imperdiet Lectus, Et Sagittis Metus. Proin Vitae \n\nEuismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac\n\n\n Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis Ante. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Diam Aliquam Viverra. Sed Odio Diam, Fermentum A Pellentesque Et, Laoreet Tempus Lacus.Vitae Euismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis \n\n\nAnte. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Diam Aliquam Viverra. Sed Ut Nibh Scelerisque Maximus. Sed Et Imperdiet Lectus, Et Sagittis Metus. Proin Vitae Euismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis Ante. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit\n\n Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Diam Aliquam Viverra. Sed Odio Diam, Fermentum A Pellentesque" />
+
+            <LinearLayout
+                android:id="@+id/wikiLinkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="75dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="@drawable/g_white_ripple_effect"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/fd_wiki_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="7dp"
+                    android:fontFamily="@font/product_sans_medium"
+                    android:text="@string/wikipedia"
+                    android:textColor="@color/g_link_blue" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.factor.bouncy.BouncyNestedScrollView>
+
+    <ImageView
+        android:id="@+id/festivalOrHolidayImageImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:alpha="1"
+        android:contentDescription="@string/festival_related_image"
+        android:scaleType="centerCrop"
+        android:transitionName="FestivalImageT"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@color/g_orange_for_bg" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
+
+
+    <!--<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/coordinatorLayoutFestivalsDescriptionPage"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:fitsSystemWindows="true"-->
+    <!--    app:layout_constraintTop_toTopOf="parent">-->
+
+    <!--    <com.factor.bouncy.BouncyNestedScrollView-->
+    <!--        style="@style/transparentColorEdgeEffect"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/currentDayTextFestivalDetailPage"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="65dp"-->
+    <!--                android:layout_marginTop="60dp"-->
+    <!--                android:gravity="end"-->
+    <!--                android:textAlignment="textEnd"-->
+    <!--                android:textSize="9sp"-->
+    <!--                tools:ignore="SmallSp"-->
+    <!--                tools:text="20/1/2021-FRI" />-->
+
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/festivalDescriptionFestivalDetailPage"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginHorizontal="35dp"-->
+    <!--                android:layout_marginTop="15dp"-->
+    <!--                android:layout_marginBottom="75dp"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textSize="15sp"-->
+    <!--                tools:text="Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Eu Nisi Facilisis, Placerat Enim Id, Malesuada Turpis. Sed Vehicula Libero At Malesuada Vehicula. Etiam Laoreet Metus Ut Nibh Scelerisque Maximus. Sed Et Imperdiet Lectus, Et Sagittis Metus. Proin Vitae \n\nEuismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac\n\n\n Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis Ante. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Suspendisse Eu Nisi Facilisis, Placerat Enim Id, Malesuada Turpis. Sed Vehicula Libero At Malesuada Vehicula. Etiam Laoreet Metus Ut Nibh Scelerisque Maximus. Sed Et Imperdiet Lectus, Et Sagittis Metus. Proin Vitae \n\nEuismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac\n\n\n Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis Ante. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Diam Aliquam Viverra. Sed Odio Diam, Fermentum A Pellentesque Et, Laoreet Tempus Lacus.Vitae Euismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis \n\n\nAnte. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Diam Aliquam Viverra. Sed Ut Nibh Scelerisque Maximus. Sed Et Imperdiet Lectus, Et Sagittis Metus. Proin Vitae Euismod Metus, Ut Vestibulum Eros. Morbi Dignissim Leo Vitae Ex Pharetra Maximus. Interdum Et Malesuada Fames Ac Ante Ipsum Primis In Faucibus. Maecenas Et Sagittis Ante. Donec Eros Dui, Molestie Sit Amet Ex Id, Congue Euismod Mi. Morbi Sed Justo Sagittis Metus Venenatis Sagittis Sit\n\n Amet Eu Libero. Pellentesque Cursus Est Laoreet Elementum Suscipit. Suspendisse Sit Amet Metus Eget Diam Aliquam Viverra. Sed Odio Diam, Fermentum A Pellentesque" />-->
+
+    <!--        </LinearLayout>-->
+
+
+    <!--    </com.factor.bouncy.BouncyNestedScrollView>-->
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:id="@+id/appbarLayoutFestivalDescriptionPage"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/white"-->
+    <!--        android:fitsSystemWindows="true"-->
+    <!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+    <!--        app:elevation="0dp">-->
+
+
+    <!--        <include layout="@layout/festival_description_image_layout_open_state" />-->
+
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+    <!--</androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+

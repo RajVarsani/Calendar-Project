@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_widgets_list_scene">
+
+
+    <com.factor.bouncy.BouncyRecyclerView
+        android:id="@+id/widgetsListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/borderContainerForWidgetTitle" />
+
+
+    <View
+        android:id="@+id/emptyViewForTransition"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/emptyViewForTransition2"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/widgetTextView" />
+
+
+    <TextView
+        android:id="@+id/widgetPageDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_medium"
+        android:paddingHorizontal="30dp"
+        android:text="@string/widget_description"
+        android:textAlignment="center"
+        android:textColor="@color/grey_text_color_three"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emptyViewForTransition2"
+        tools:ignore="SmallSp" />
+
+    <View
+        android:id="@+id/emptyViewForTransition3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/widgetPageDescriptionTextView" />
+
+    <TextView
+        android:id="@+id/widgetTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/product_sans_medium"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="@string/w_widget"
+        android:textColor="@color/g_orange"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emptyViewForTransition" />
+
+    <ImageView
+        android:id="@+id/borderContainerForWidgetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:src="@drawable/w_widget_title_header_container_with_borders"
+        app:layout_constraintTop_toBottomOf="@id/emptyViewForTransition3"
+        tools:ignore="ContentDescription" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

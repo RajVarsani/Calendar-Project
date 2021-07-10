@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpandedWidgetViewActivity">
+
+
+    <ImageView
+        android:id="@+id/widgetPreviewImageWidgetList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/w_widget_preview_image"
+        android:scaleType="centerCrop"
+        android:src="@color/g_orange_for_bg"
+        android:transitionName="widgetPreviewImageT" />
+
+    <ImageView
+        android:id="@+id/scrimLayerWidgetList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/w_widgets_list_item_scrim"
+        android:transitionName="scrimLayerWidgetList"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/widgetAccessTypeStatusTitleInWidgetsListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="25dp"
+        android:alpha="0"
+        android:fontFamily="@font/product_sans_black"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:transitionName="widgetAccessTypeStatusTitleInWidgetsListItemT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSp"
+        tools:text="WATCH AD" />
+
+    <TextView
+        android:id="@+id/widgetAccessTypeStatusDescriptionInWidgetsListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:alpha="0"
+        android:fontFamily="@font/product_sans_regular"
+        android:textColor="@color/white_primary_text_color"
+        android:textSize="15sp"
+        android:transitionName="widgetAccessTypeStatusDescriptionInWidgetsListItemT"
+        app:layout_constraintBottom_toTopOf="@id/widgetAccessTypeStatusTitleInWidgetsListItem"
+        app:layout_constraintStart_toStartOf="@id/widgetAccessTypeStatusTitleInWidgetsListItem"
+        tools:ignore="SmallSp"
+        tools:text="watch AD to \nreceive this cool\nwidget for free" />
+
+
+    <ImageView
+        android:id="@+id/playAdButtonWidgetList"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:alpha="0"
+        android:src="@drawable/w_ic_play_ad_icon"
+        android:transitionName="playButtonT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/addThisTextExpandedWidgetViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_black"
+        android:text="@string/ew_add_this"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@id/toHomePageTextExpandedWidgetViewActivity"
+        app:layout_constraintStart_toStartOf="@id/toHomePageTextExpandedWidgetViewActivity" />
+
+    <TextView
+        android:id="@+id/toHomePageTextExpandedWidgetViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/product_sans_black"
+        android:text="@string/ew_to_home_page"
+        android:textColor="@color/white_primary_text_color"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:foreground="@drawable/g_white_ripple_effect"
+        android:focusable="true"
+        android:src="@drawable/ew_ic_add_widget_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

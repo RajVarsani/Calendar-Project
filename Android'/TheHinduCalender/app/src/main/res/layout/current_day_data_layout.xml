@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dateDataContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginTop="20dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/slogan_container">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/subDateDataContainerOne"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="2"
+        android:background="@drawable/h_date_container_gradient_bg_one">
+
+
+        <TextView
+            android:id="@+id/zodiacSignTextTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/product_sans_black"
+            android:text="@string/h_zodiac_sign"
+            android:textColor="@color/h_yellow_text_for_current_day_data_title"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/zodiacSignValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/product_sans_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Gemini" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/subDateDataContainerTwo"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="3"
+        android:background="@drawable/h_date_container_gradient_bg_two"
+        tools:layout_marginLeft="7dp">
+
+        <TextView
+            android:id="@+id/englishCalenderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/product_sans_black"
+            android:textColor="@color/h_yellow_text_for_current_day_data_title"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="1 Jan, 2021" />
+
+
+        <TextView
+            android:id="@+id/hinduCalenderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/product_sans_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/hinduCalenderYear"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text=" Magsharved Bij" />
+
+
+        <TextView
+            android:id="@+id/hinduCalenderYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/product_sans_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Vikram Era 2077" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
