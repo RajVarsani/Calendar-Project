@@ -23,5 +23,9 @@
     <style name="transparentColorEdgeEffect">
         <item name="android:colorEdgeEffect">@android:color/transparent</item>
     </style>
+    <style name="ThemeOverlay.TheHinduCalender.AppWidgetContainer" parent="">
+        <item name="appWidgetBackgroundColor">@color/light_blue_600</item>
+        <item name="appWidgetTextColor">@color/light_blue_50</item>
+    </style>
 
 </resources>

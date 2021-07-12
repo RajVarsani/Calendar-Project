@@ -47,6 +47,8 @@
     <string name="w_widget_preview_image">widget Preview Image</string>
     <string name="ew_add_this">ADD THIS</string>
     <string name="ew_to_home_page">TO HOME PAGE</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 
 
 </resources>

@@ -31,6 +31,7 @@
     <color name="grey_text_color_three">#BCBCBC</color>
     <color name="sunday_red">#FFEEEE</color>
 
+
     <color name="grey_text_color_for_main_calender_children_month_text">#8C8C8C</color>
     <color name="grey_text_color_for_main_calender_children_date_index">#CC000000</color>
     <color name="orange_for_speciality_bg">#1AFF7F02</color>
@@ -50,6 +51,10 @@
     <color name="white_primary_text_color">#C7C7C7</color>
     <color name="speciality_orange">#FFF3E9</color>
     <color name="w_scrim_color">#202020</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
 
 
 </resources>
