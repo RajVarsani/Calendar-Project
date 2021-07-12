@@ -8,9 +8,9 @@
     android:theme="@style/ThemeOverlay.TheHinduCalender.AppWidgetContainer">
 
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/topContentContainerW1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -18,34 +18,72 @@
             android:id="@+id/dateTextViewW1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
             android:gravity="center"
-            android:shadowColor="@color/black"
-            android:shadowDx="0.5"
-            android:shadowDy="0.5"
-            android:shadowRadius="2"
+            android:shadowColor="@color/w1_date_shadow_color"
+            android:shadowRadius="15"
             android:text="1 Jan, 2021"
-            android:textColor="?attr/appWidgetTextColor"
-            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
             android:textStyle="bold"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText,SpUsage" />
 
         <TextView
             android:id="@+id/dayTextViewW1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_marginStart="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
             android:gravity="center"
-            android:shadowColor="@color/black"
-            android:shadowDx="0.5"
-            android:shadowDy="0.5"
-            android:shadowRadius="2"
+            android:shadowColor="@color/w1_day_shadow_color"
+            android:shadowRadius="15"
             android:text="Friday"
-            android:textColor="?attr/appWidgetTextColor"
-            android:textSize="16sp"
-            tools:ignore="HardcodedText" />
-    </LinearLayout>
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/hinduDateW1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:shadowColor="@color/w1_hindu_date_shadow_color"
+        android:shadowRadius="15"
+        android:text="Vikram Era 2077 /  Magshar Ved Bij"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:shadowColor="@color/w1_zodiac_sign_shadow_color"
+        android:shadowRadius="15"
+        android:text="Gemini"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="HardcodedText,SpUsage" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:shadowColor="@color/w1_zodiac_sign_shadow_color"
+        android:shadowRadius="15"
+        android:text="Choghadiya : Shubh"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="HardcodedText,SpUsage" />
 
 
 </LinearLayout>
