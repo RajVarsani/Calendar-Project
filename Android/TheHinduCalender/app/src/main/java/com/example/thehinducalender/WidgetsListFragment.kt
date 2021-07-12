@@ -34,7 +34,7 @@ class WidgetsListFragment : Fragment(), IWidgetsListAdapter {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        for (i in 0..10) {
+        for (i in 0..9) {
             widgetsList.add(WidgetDisplayItem(R.color.g_orange, "FREE", "I \nDon't \nKnow"))
         }
 

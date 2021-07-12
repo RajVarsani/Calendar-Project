@@ -12,7 +12,7 @@ class ExpandedWidgetViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_expanded_widget_view)
 
-        window.sharedElementEnterTransition.duration = 10000
+        window.sharedElementEnterTransition.duration = 300
 
         setUp()
 
