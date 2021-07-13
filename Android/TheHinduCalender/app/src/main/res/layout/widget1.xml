@@ -22,13 +22,13 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="10dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="0dp"
             android:gravity="center"
             android:shadowColor="@color/w1_date_shadow_color"
             android:shadowRadius="15"
             android:text="1 Jan, 2021"
             android:textColor="@color/white"
-            android:textSize="25dp"
+            android:textSize="30dp"
             android:textStyle="bold"
             tools:ignore="HardcodedText,SpUsage" />
 
@@ -44,7 +44,7 @@
             android:shadowRadius="15"
             android:text="Friday"
             android:textColor="@color/white"
-            android:textSize="18dp"
+            android:textSize="20dp"
             tools:ignore="HardcodedText,SpUsage" />
     </RelativeLayout>
 
@@ -53,8 +53,8 @@
         android:id="@+id/hinduDateW1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
         android:shadowColor="@color/w1_hindu_date_shadow_color"
         android:shadowRadius="15"
         android:text="Vikram Era 2077 /  Magshar Ved Bij"
@@ -66,23 +66,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="30dp"
         android:shadowColor="@color/w1_zodiac_sign_shadow_color"
         android:shadowRadius="15"
         android:text="Gemini"
         android:textColor="@color/white"
-        android:textSize="12dp"
+        android:textSize="18dp"
         tools:ignore="HardcodedText,SpUsage" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="2dp"
         android:shadowColor="@color/w1_zodiac_sign_shadow_color"
         android:shadowRadius="15"
         android:text="Choghadiya : Shubh"
         android:textColor="@color/white"
-        android:textSize="12dp"
+        android:textSize="18dp"
         tools:ignore="HardcodedText,SpUsage" />
 
 

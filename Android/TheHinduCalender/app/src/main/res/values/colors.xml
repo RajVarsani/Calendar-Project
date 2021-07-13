@@ -59,10 +59,10 @@
 
 <!--    Widget colors-->
 
-    <color name="w1_date_shadow_color">#1B000000</color>
-    <color name="w1_day_shadow_color">#1B000000</color>
-    <color name="w1_hindu_date_shadow_color">#1B000000</color>
-    <color name="w1_zodiac_sign_shadow_color">#1B000000</color>
-    <color name="w1_choghadiya_shadow_color">#1B000000</color>
+    <color name="w1_date_shadow_color">#26000000</color>
+    <color name="w1_day_shadow_color">#26000000</color>
+    <color name="w1_hindu_date_shadow_color">#40000000</color>
+    <color name="w1_zodiac_sign_shadow_color">#2E000000</color>
+    <color name="w1_choghadiya_shadow_color">#29000000</color>
 
 </resources>
