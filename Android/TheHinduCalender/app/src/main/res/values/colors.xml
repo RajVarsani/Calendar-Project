@@ -21,7 +21,7 @@
     <color name="g_borders">#292929</color>
     <color name="g_black_primary">#99000000</color>
     <color name="g_white_for_ripple">#80FFFFFF</color>
-    <color name="g_link_blue" >#6586FD</color>
+    <color name="g_link_blue">#6586FD</color>
 
 
     <!-- Home Page colors -->
@@ -57,12 +57,22 @@
     <color name="light_blue_900">#FF01579B</color>
 
 
-<!--    Widget colors-->
+    <!--    Widget1 colors-->
 
     <color name="w1_date_shadow_color">#26000000</color>
     <color name="w1_day_shadow_color">#26000000</color>
     <color name="w1_hindu_date_shadow_color">#40000000</color>
     <color name="w1_zodiac_sign_shadow_color">#2E000000</color>
     <color name="w1_choghadiya_shadow_color">#29000000</color>
+
+
+
+    <!--    Widget2 colors-->
+
+    <color name="w2_date_shadow_color">#26000000</color>
+    <color name="w2_day_shadow_color">#26000000</color>
+    <color name="w2_hindu_date_shadow_color">#40000000</color>
+    <color name="w2_zodiac_sign_shadow_color">#2E000000</color>
+    <color name="w2_choghadiya_shadow_color">#29000000</color>
 
 </resources>
