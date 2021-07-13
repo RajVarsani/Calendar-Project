@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wi_primary_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.TheHinduCalender.AppWidgetContainer">
+
+
+    <LinearLayout
+        android:id="@+id/topContentContainerW4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/timeTextViewW4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:shadowColor="@color/w4_date_shadow_color"
+            android:shadowRadius="15"
+            android:text="4:54 PM"
+            android:textColor="@color/white"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/middleContentContainerW4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/wi_middle_container_bg"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/HorizontalDividerView" />
+
+        <LinearLayout
+            android:id="@+id/middleSubContentContainerW4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dateTextViewW4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:shadowColor="@color/w4_date_shadow_color"
+                android:shadowRadius="15"
+                android:text="1 Jan, 2021"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/dayTextViewW4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:shadowColor="@color/w4_day_shadow_color"
+                android:shadowRadius="15"
+                android:text="Friday"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/HorizontalDividerView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hinduDateW4P1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:shadowColor="@color/w4_hindu_date_shadow_color"
+                android:shadowRadius="15"
+                android:text="Vikram Era 2077"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/hinduDateW4P2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:shadowColor="@color/w4_hindu_date_shadow_color"
+                android:shadowRadius="15"
+                android:text="Magshar Ved Bij"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="17dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="12dp"
+                android:shadowColor="@color/w4_zodiac_sign_shadow_color"
+                android:shadowRadius="15"
+                android:text="Gemini"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="2dp"
+                android:shadowColor="@color/w4_zodiac_sign_shadow_color"
+                android:shadowRadius="15"
+                android:text="Shubh -> Char"
+                android:textAlignment="textEnd"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

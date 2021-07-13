@@ -49,6 +49,7 @@
     <string name="ew_to_home_page">TO HOME PAGE</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
 
 
 </resources>
