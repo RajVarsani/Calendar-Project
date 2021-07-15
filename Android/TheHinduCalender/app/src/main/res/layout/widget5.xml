@@ -16,7 +16,7 @@
         android:orientation="vertical">
 
 
-        <TextView
+        <TextClock
             android:id="@+id/timeTextViewW4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

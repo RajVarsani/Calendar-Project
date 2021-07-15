@@ -16,7 +16,7 @@
         android:orientation="vertical">
 
 
-        <TextView
+        <TextClock
             android:id="@+id/timeTextViewW4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +29,6 @@
             android:text="4:54 PM"
             android:textColor="@color/white"
             android:textSize="38dp"
-            android:textStyle="bold"
             tools:ignore="HardcodedText,SpUsage" />
 
 
