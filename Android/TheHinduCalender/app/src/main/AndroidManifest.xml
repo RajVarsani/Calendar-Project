@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".models.Widget4">
+        <receiver android:name=".Widget4">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -35,7 +35,7 @@
                 android:resource="@xml/widget4_info" />
         </receiver>
 
-        <activity android:name=".models.Widget4ConfigureActivity">
+        <activity android:name=".Widget4ConfigureActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
