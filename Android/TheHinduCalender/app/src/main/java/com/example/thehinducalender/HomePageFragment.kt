@@ -1,6 +1,7 @@
 package com.example.thehinducalender
 
 import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -91,7 +92,7 @@ class HomePageFragment : Fragment(R.layout.fragment_home_page), View.OnClickList
     }
 
     private fun setUpUserPreferences(): Int {
-        val pref = this.requireActivity().getPreferences(Context.MODE_PRIVATE)
+        val pref = this.requireActivity().getSharedPreferences ("UsersSettingPref", MODE_PRIVATE)
         Log.e(
             "check",
             "isFirstTime is ${

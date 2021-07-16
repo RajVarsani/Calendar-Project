@@ -42,7 +42,7 @@
             android:gravity="center"
             android:shadowColor="@color/w1_day_shadow_color"
             android:shadowRadius="15"
-            android:text="Friday"
+            android:text="Hehe"
             android:textColor="@color/white"
             android:textSize="20dp"
             tools:ignore="HardcodedText,SpUsage" />
@@ -63,6 +63,7 @@
         tools:ignore="HardcodedText,SpUsage" />
 
     <TextView
+        android:id="@+id/zodiacSignW1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -74,6 +75,7 @@
         android:textSize="18dp"
         tools:ignore="HardcodedText,SpUsage" />
     <TextView
+        android:id="@+id/choghadiyaTextViewW1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"

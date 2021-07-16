@@ -8,33 +8,30 @@ import android.util.Log
 
 class AppWidgetAlarm1(private val context: Context?) {
     private val ALARM_ID = 0
-    private val INTERVAL_MILLIS: Long = 10
 
-    fun startAlarm() {
+    fun startAlarm(alarm_id :Int) {
         Log.e("ST", "called")
-//        val calendar: Calendar = Calendar.getInstance()
-//        calendar.add(Calendar.MILLISECOND, INTERVAL_MILLIS.toInt())
-
-//        Log.e("T CHk", "${calendar.timeInMillis} \n ${System.currentTimeMillis()}")
-
         val alarmIntent = Intent(context, Widget1::class.java).let { intent ->
             intent.action = Widget1.ACTION_AUTO_UPDATE
-            PendingIntent.getBroadcast(context, 0, intent, 0)
+            PendingIntent.getBroadcast(context, alarm_id, intent, 0)
         }
-        Log.e("CHK0", "INTENT check, ${context!!.getSystemService(Context.ALARM_SERVICE)}")
         Log.e(
             "T CHk",
-            "${(System.currentTimeMillis() / 300000) * 300000 + 300000} \n ${System.currentTimeMillis()}"
+            "${(System.currentTimeMillis())} \n ${(System.currentTimeMillis() / 5400000) * 5400000 + 1800000}"
         )
-        with(context.getSystemService(Context.ALARM_SERVICE) as AlarmManager) {
-//            Log.e("CHK", "INTENT check, ${context.getSystemService(Context.ALARM_SERVICE)}")
+        with(context!!.getSystemService(Context.ALARM_SERVICE) as AlarmManager) {
             setRepeating(
                 AlarmManager.RTC_WAKEUP,
-                (System.currentTimeMillis() / 300000) * 300000 + 300000,
+                (System.currentTimeMillis() / 5400000) * 5400000 + 1800000,
                 60000,
                 alarmIntent
             )
-            Log.e("CHK2", "INTENT check, ${context.getSystemService(Context.ALARM_SERVICE)}")
+//            setRepeating(
+//                AlarmManager.RTC_WAKEUP,
+//                System.currentTimeMillis(),
+//                60000,
+//                alarmIntent
+//            )
         }
     }
 

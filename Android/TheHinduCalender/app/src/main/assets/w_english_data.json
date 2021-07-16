@@ -1,0 +1,2729 @@
+{
+  "dateDetail": [
+    [
+      [
+        "Agrahayana K 2",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 3",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 4",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 6",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 7",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 8",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 9",
+        "Libra",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 10",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 11",
+        "Scorpio",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Agrahayana K 12",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Agrahayana K 13",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Agrahayana K 14",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Agrahayana Amavasya",
+        "Sagittarius",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Pausa S 1",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Pausa S 2",
+        "Capricorn",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Pausa S 3",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Pausa S 4",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Pausa S 5",
+        "Pisces",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Pausa S 6",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Pausa S 7",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Pausa S 8",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Pausa S 9",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Pausa S 10",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Pausa S 11",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Pausa S 12",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Pausa S 13",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Pausa S 14",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Pausa Purnima",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Pausa K 1",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Pausa K 2",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Pausa K 3",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Pausa K 4",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Pausa K 5",
+        "Virgo",
+        "Hasta",
+        false,
+        true
+      ],
+      [
+        "Pausa K 6",
+        "Virgo",
+        "Chitra",
+        false,
+        true
+      ],
+      [
+        "Pausa K 7",
+        "Libra",
+        "Swati",
+        false,
+        true
+      ],
+      [
+        "Pausa K 8",
+        "Libra",
+        "Vishaka",
+        false,
+        false
+      ],
+      [
+        "Pausa K 9",
+        "Scorpio",
+        "Anuradha",
+        false,
+        false
+      ],
+      [
+        "Pausa K 11",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        false
+      ],
+      [
+        "Pausa K 12",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Pausa K 13",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Pausa K 14",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Pausa Amavasya",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Magha S 1",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Magha S 2",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Magha S 3",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Magha S 4",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Magha S 5",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Magha S 6",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Magha S 6",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Magha S 7",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Magha S 8",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Magha S 9",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Magha S 10",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Magha S 11",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Magha S 12",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Magha S 13",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Magha S 14",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Magha Purnima",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Magha K 1",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Magha K 2",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Magha K 4",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Magha K 5",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Magha K 6",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Magha K 7",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Magha K 8",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Magha K 9",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Magha K 10",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Magha K 11",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Magha K 12",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Magha K 13",
+        "Capricorn",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Magha K 14",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Magha Amavasya",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Phalguna S 1",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Phalguna S 2",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Phalguna S 3",
+        "Aries",
+        "Ashwini",
+        true,
+        false
+      ],
+      [
+        "Phalguna S 4",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 5",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 6",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 7",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 7",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 8",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 9",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 10",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 11",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 12",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Phalguna S 14",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Phalguna Purnima",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Phalguna K 1",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Phalguna K 2",
+        "Libra",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Phalguna K 3",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Phalguna K 4",
+        "Scorpio",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Phalguna K 5",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Phalguna K 7",
+        "Sagittarius",
+        "Moola",
+        false,
+        true
+      ],
+      [
+        "Phalguna K 8",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Phalguna K 9",
+        "Sagittarius",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Phalguna K 10",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Phalguna K 11",
+        "Capricorn",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Phalguna K 12",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Phalguna K 13",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Phalguna K 14",
+        "Pisces",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Phalguna Amavasya",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Phalguna Amavasya",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Chaitra S 1",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 2",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 3",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 4",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 5",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 6",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 7",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 8",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 9",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 10",
+        "Cancer",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 11",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 12",
+        "Leo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 13",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Chaitra S 14",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Chaitra Purnima",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Chaitra K 2",
+        "Libra",
+        "Swati",
+        false,
+        true
+      ],
+      [
+        "Chaitra K 3",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Chaitra K 4",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ]
+    ],
+    [
+      [
+        "Chaitra K 5",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Chaitra K 6",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Chaitra K 7",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Chaitra K 8",
+        "Capricorn",
+        "Shravana",
+        true,
+        false
+      ],
+      [
+        "Chaitra K 9",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Chaitra K 10",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Chaitra K 11",
+        "Pisces",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Chaitra K 12",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Chaitra K 13",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Chaitra K 14",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Chaitra Amavasya",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 1",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 2",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 3",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 3",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 4",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 5",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 6",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 7",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 8",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 9",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 10",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 11",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 13",
+        "Libra",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Vaisakha S 14",
+        "Libra",
+        "Swati",
+        false,
+        true
+      ],
+      [
+        "Vaisakha Purnima",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Vaisakha K 1",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Vaisakha K 2",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Vaisakha K 3",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Vaisakha K 5",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Vaisakha K 6",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Vaisakha K 7",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Vaisakha K 8",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Vaisakha K 9",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Vaisakha K 10",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Vaisakha K 11",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Vaisakha K 11",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Vaisakha K 12",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Vaisakha K 13",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Vaisakha K 14",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Vaisakha Amavasya",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 1",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 2",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 3",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 4",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 5",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 6",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 7",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 8",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 9",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 10",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 11",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Jyeshta S 12",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Jyeshta S 13",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Jyeshta Purnima",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Jyeshta K 1",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 2",
+        "Sagittarius",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 3",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 4",
+        "Capricorn",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Jyeshta K 5",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Jyeshta K 6",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ]
+    ],
+    [
+      [
+        "Jyeshta K 7",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Jyeshta K 8",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Jyeshta K 9",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Jyeshta K 10",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 11",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 12",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 13",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Jyeshta K 14",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Jyeshta Amavasya",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Jyeshta Amavasya",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 1",
+        "Gemini",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 2",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 3",
+        "Cancer",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 4",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 5",
+        "Leo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 6",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 8",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 9",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 10",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Ashadha S 11",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Ashadha S 12",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Ashadha S 13",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Ashadha S 14",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Ashadha Purnima",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 2",
+        "Capricorn",
+        "Shravana",
+        true,
+        false
+      ],
+      [
+        "Ashadha K 3",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Ashadha K 4",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Ashadha K 5",
+        "Pisces",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Ashadha K 6",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Ashadha K 7",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Ashadha K 8",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Ashadha K 8",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 9",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 10",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 11",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 12",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 13",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Ashadha K 14",
+        "Cancer",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Ashadha Amavasya",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Sravana S 1",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Sravana S 2",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Sravana S 3",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Sravana S 4",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Sravana S 5",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Sravana S 6",
+        "Libra",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Sravana S 7",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Sravana S 8",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Sravana S 10",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Sravana S 11",
+        "Sagittarius",
+        "Moola",
+        false,
+        true
+      ],
+      [
+        "Sravana S 12",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Sravana S 13",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Sravana S 14",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Sravana Purnima",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Sravana K 1",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Sravana K 2",
+        "Pisces",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Sravana K 3",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Sravana K 4",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Sravana K 5",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Sravana K 6",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Sravana K 7",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Sravana K 8",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Sravana K 9",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Sravana K 10",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Sravana K 11",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Sravana S 11",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Sravana S 12",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Sravana S 13",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Sravana Amavasya",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 1",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 2",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 3",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 4",
+        "Libra",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 5",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 6",
+        "Scorpio",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Bhadrapada S 7",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Bhadrapada S 8",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Bhadrapada S 9",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada S 10",
+        "Sagittarius",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 11",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 12",
+        "Capricorn",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Bhadrapada K 14",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Bhadrapada Purnima",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Bhadrapada K 1",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Bhadrapada K 2",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Bhadrapada K 2",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Bhadrapada K 3",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 4",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 5",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 6",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 7",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 8",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 9",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Bhadrapada K 10",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 11",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 12",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 13",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada K 14",
+        "Leo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Bhadrapada Amavasya",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Ashvina S 1",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Ashvina S 2",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Ashvina S 3",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Ashvina S 5",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Ashvina S 6",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Ashvina S 7",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Ashvina S 8",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Ashvina S 9",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Ashvina S 10",
+        "Capricorn",
+        "Shravana",
+        true,
+        false
+      ],
+      [
+        "Ashvina S 11",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Ashvina S 12",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Ashvina S 13",
+        "Pisces",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Ashvina S 14",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Ashvina Purnima",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Ashvina K 1",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 2",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 3",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 4",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 5",
+        "Taurus",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 5",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 6",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 7",
+        "Cancer",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 8",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 9",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 10",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Ashvina K 11",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 12",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Ashvina K 13",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Ashvina Amavasya",
+        "Libra",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Kartika S 1",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Kartika S 2",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Kartika S 3",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Kartika S 4",
+        "Sagittarius",
+        "Moola",
+        false,
+        false
+      ],
+      [
+        "Kartika S 5",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Kartika S 6",
+        "Capricorn",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Kartika S 8",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Kartika S 9",
+        "Aquarius",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Kartika S 10",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Kartika S 11",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Kartika S 12",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Kartika S 12",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Kartika S 13",
+        "Aries",
+        "Ashwini",
+        false,
+        false
+      ],
+      [
+        "Kartika S 14",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Kartika Purnima",
+        "Aries",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Kartika K 1",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Kartika K 2",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Kartika K 3",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Kartika K 4",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Kartika K 5",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Kartika K 6",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Kartika K 7",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Kartika K 8",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Kartika K 9",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Kartika K 10",
+        "Virgo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Kartika K 11",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ]
+    ],
+    [
+      [
+        "Kartika K 12",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Kartika K 13",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Kartika K 14",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Kartika Amavasya",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ],
+      [
+        "Agrahayana S 1",
+        "Scorpio",
+        "Jyeshta",
+        false,
+        true
+      ],
+      [
+        "Agrahayana S 3",
+        "Sagittarius",
+        "Purva Ashadha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana S 4",
+        "Sagittarius",
+        "Uttara Ashadha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana S 5",
+        "Capricorn",
+        "Shravana",
+        false,
+        false
+      ],
+      [
+        "Agrahayana S 6",
+        "Capricorn",
+        "Dhanishta",
+        true,
+        false
+      ],
+      [
+        "Agrahayana S 7",
+        "Aquarius",
+        "Shatabhisha",
+        true,
+        false
+      ],
+      [
+        "Agrahayana S 8",
+        "Aquarius",
+        "Purva Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Agrahayana S 9",
+        "Pisces",
+        "Uttara Bhadrapada",
+        true,
+        false
+      ],
+      [
+        "Agrahayana S 10",
+        "Pisces",
+        "Revati",
+        true,
+        false
+      ],
+      [
+        "Agrahayana S 11",
+        "Aries",
+        "Ashwini",
+        true,
+        false
+      ],
+      [
+        "Agrahayana S 12",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Agrahayana S 13",
+        "Aries",
+        "Bharani",
+        false,
+        false
+      ],
+      [
+        "Agrahayana S 14",
+        "Taurus",
+        "Krithika",
+        false,
+        false
+      ],
+      [
+        "Agrahayana S 14",
+        "Taurus",
+        "Rohini",
+        false,
+        false
+      ],
+      [
+        "Agrahayana Purnima",
+        "Gemini",
+        "Mrigashirsha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 1",
+        "Gemini",
+        "Ardra",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 2",
+        "Gemini",
+        "Punarvasu",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 3",
+        "Cancer",
+        "Pushya",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 4",
+        "Cancer",
+        "Ashlesha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 5",
+        "Leo",
+        "Magha",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 6",
+        "Leo",
+        "Purva Phalguni",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 7",
+        "Leo",
+        "Uttara Phalguni",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 8",
+        "Virgo",
+        "Hasta",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 9",
+        "Virgo",
+        "Chitra",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 10",
+        "Libra",
+        "Swati",
+        false,
+        false
+      ],
+      [
+        "Agrahayana K 11",
+        "Libra",
+        "Vishaka",
+        false,
+        true
+      ],
+      [
+        "Agrahayana K 12",
+        "Scorpio",
+        "Anuradha",
+        false,
+        true
+      ]
+    ]
+  ],
+  "choghadiya": {
+    "Day": [
+      [
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg"
+      ],
+      [
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit"
+      ],
+      [
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog"
+      ],
+      [
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh"
+      ],
+      [
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh"
+      ],
+      [
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal"
+      ],
+      [
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal"
+      ]
+    ],
+    "Night": [
+      [
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh"
+      ],
+      [
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal"
+      ],
+      [
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal"
+      ],
+      [
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg"
+      ],
+      [
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit"
+      ],
+      [
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog"
+      ],
+      [
+        "Labh",
+        "Amrit",
+        "Kal",
+        "Shubh",
+        "Rog",
+        "Udveg",
+        "Chal",
+        "Labh"
+      ]
+    ]
+  }
+}

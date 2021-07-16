@@ -4,10 +4,11 @@ import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.ComponentName
 import android.content.Context
+import android.content.Context.MODE_PRIVATE
 import android.content.Intent
 import android.util.Log
 import android.widget.RemoteViews
-import kotlin.random.Random
+import com.example.thehinducalender.appwidgetdaos.AppWidgetsDataHandlerDao
 
 
 /**
@@ -32,7 +33,7 @@ class Widget1 : AppWidgetProvider() {
         Log.e("OE", "called")
 
         val appWidgetAlarm = AppWidgetAlarm1(context.applicationContext)
-        appWidgetAlarm.startAlarm()
+        appWidgetAlarm.startAlarm(0)
 
     }
 
@@ -62,7 +63,7 @@ class Widget1 : AppWidgetProvider() {
         Log.e("OD", "called")
 
         // Enter relevant functionality for when the last widget is disabled
-        val appWidgetManager = AppWidgetManager.getInstance(context)
+//        val appWidgetManager = AppWidgetManager.getInstance(context)
         val name = ComponentName(context, Widget1::class.java)
         val appWidgetIds = AppWidgetManager.getInstance(context).getAppWidgetIds(name)
 
@@ -75,28 +76,8 @@ class Widget1 : AppWidgetProvider() {
     }
 
     companion object {
-
         const val ACTION_AUTO_UPDATE = "AUTO_UPDATE"
-
-        fun updateAppWidget1(
-            context: Context,
-            appWidgetManager: AppWidgetManager,
-            appWidgetId: Int
-        ) {
-
-            val widgetText = Random.nextInt(0, 100).toString()
-
-            // Construct the RemoteViews object
-            val views = RemoteViews(context.packageName, R.layout.widget1)
-//            views.setTextViewText(R.id.widget_text, widgetText)
-            Log.e("W1 up", "$appWidgetManager , $appWidgetId")
-            // Instruct the widget manager to update the widget
-//            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, R.id.widget_text)
-            appWidgetManager.updateAppWidget(appWidgetId, views)
-
-        }
     }
-
 }
 
 internal fun updateAppWidget1(
@@ -104,11 +85,47 @@ internal fun updateAppWidget1(
     appWidgetManager: AppWidgetManager,
     appWidgetId: Int
 ) {
-//    val widgetText = context.getString(R.string.appwidget_text)
-    // Construct the RemoteViews object
+
+
     val views = RemoteViews(context.packageName, R.layout.widget1)
-//            views.setTextViewText(R.id.widget_text, widgetText)
     Log.e("W1 up", "$appWidgetManager , $appWidgetId")
+
+    val widgetsDataHandlerDao = AppWidgetsDataHandlerDao();
+
+
+    val pref = context.getSharedPreferences("UsersSettingPref", MODE_PRIVATE)
+    val langPref = pref.getInt("LanguagePreference", 0)
+    Log.e("Lang Pref", " $langPref")
+
+
+    widgetsDataHandlerDao.loadJsonDataFromAssets(context, langPref)
+
+
+    val dayOfWeekText = widgetsDataHandlerDao.getCurrentDayOfWeek(langPref)
+    Log.e("DOW", " $dayOfWeekText ")
+    views.setTextViewText(R.id.dayTextViewW1, dayOfWeekText)
+
+
+    val date = widgetsDataHandlerDao.getTodaysDate(langPref)
+    views.setTextViewText(R.id.dateTextViewW1, date)
+
+
+    val (tithiDate, zodiacSign) = widgetsDataHandlerDao.currentTithiAndZodiacSignForWidgets(
+        langPref
+    )
+    val hinduDate =
+        widgetsDataHandlerDao.currentHinduYearInFormatForWidgets() + " / " + tithiDate
+    Log.e("Dt chk", " $hinduDate")
+    Log.e("Dt chk", " $zodiacSign")
+    views.setTextViewText(R.id.hinduDateW1, hinduDate)
+    views.setTextViewText(R.id.zodiacSignW1, zodiacSign)
+
+
+    val currentChoghadiya = widgetsDataHandlerDao.currentChoghadiya(langPref)
+    Log.e("Cho Chk", " $currentChoghadiya ")
+    views.setTextViewText(R.id.choghadiyaTextViewW1, "Choghadiya : $currentChoghadiya")
+
+//    val currentChoghdiya =
 
     // Instruct the widget manager to update the widget
     appWidgetManager.updateAppWidget(appWidgetId, views)
