@@ -12,6 +12,11 @@
         <receiver android:name=".Widget5">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_AUTO_UPDATE" />
             </intent-filter>
 
             <meta-data
@@ -28,6 +33,11 @@
         <receiver android:name=".Widget4">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_AUTO_UPDATE" />
             </intent-filter>
 
             <meta-data
@@ -44,6 +54,11 @@
         <receiver android:name=".Widget3">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_AUTO_UPDATE" />
             </intent-filter>
 
             <meta-data
@@ -53,6 +68,11 @@
         <receiver android:name=".Widget2">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_AUTO_UPDATE" />
             </intent-filter>
 
             <meta-data
