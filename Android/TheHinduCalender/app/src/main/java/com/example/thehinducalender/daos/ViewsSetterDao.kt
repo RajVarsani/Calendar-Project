@@ -34,10 +34,7 @@ class ViewsSetterDao {
         "Whoever is happy will make others happy too.", "- Anne Frank"
     )
 
-    private lateinit var festivalsAndHolidaysPageFestivalsList: ArrayList<Festival>
-    private lateinit var adapterForFestivalAndHolidayList: FestivalsListRecyclerViewAdapter
-
-    private val monthNames = arrayOf(
+    private lateinit var festivalsAndH private val monthNames = arrayOf(
         "January",
         "February",
         "March",
@@ -49,7 +46,10 @@ class ViewsSetterDao {
         "September",
         "October",
         "November",
-        "December",
+        "DeolidaysPageFestivalsList: ArrayList<Festival>
+    private lateinit var adapterForFestivalAndHolidayList: FestivalsListRecyclerViewAdapter
+
+   cember",
     )
 
     private val choiceTextListForFestivalsFilter = arrayOf(
