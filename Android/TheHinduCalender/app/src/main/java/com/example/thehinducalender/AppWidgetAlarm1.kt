@@ -20,18 +20,18 @@ class AppWidgetAlarm1(private val context: Context?) {
             "${(System.currentTimeMillis())} \n ${(System.currentTimeMillis() / 5400000) * 5400000 + 1800000}"
         )
         with(context!!.getSystemService(Context.ALARM_SERVICE) as AlarmManager) {
+//            setRepeating(
+//                AlarmManager.RTC_WAKEUP,
+//                (System.currentTimeMillis() / 5400000) * 5400000 + 1800000,
+//                5400000,
+//                alarmIntent
+//            )
             setRepeating(
                 AlarmManager.RTC_WAKEUP,
-                (System.currentTimeMillis() / 5400000) * 5400000 + 1800000,
+                System.currentTimeMillis(),
                 60000,
                 alarmIntent
             )
-//            setRepeating(
-//                AlarmManager.RTC_WAKEUP,
-//                System.currentTimeMillis(),
-//                60000,
-//                alarmIntent
-//            )
         }
     }
 
