@@ -33,24 +33,19 @@ class Widget1 : AppWidgetProvider() {
         Log.e("OE", "called")
 
         val appWidgetAlarm = AppWidgetAlarm1(context.applicationContext)
-        appWidgetAlarm.startAlarm(0)
+        appWidgetAlarm.startAlarm(0, Widget1::class.java, ACTION_AUTO_UPDATE_W1)
 
     }
 
     override fun onReceive(context: Context?, intent: Intent?) {
         super.onReceive(context, intent)
 
-        // Do something
         Log.e("OR CHK", "$intent")
-
-        /*if (intent!!.action == ACTION_AUTO_UPDATE) {
-            // DO SOMETHING
-        }*/
 
         val name = context?.let { ComponentName(it, Widget1::class.java) }
         val appWidgetIds = AppWidgetManager.getInstance(context).getAppWidgetIds(name)
 
-        if (intent!!.action == ACTION_AUTO_UPDATE) {
+        if (intent!!.action == ACTION_AUTO_UPDATE_W1) {
             onUpdate(
                 context!!,
                 AppWidgetManager.getInstance(context),
@@ -62,21 +57,18 @@ class Widget1 : AppWidgetProvider() {
     override fun onDisabled(context: Context) {
         Log.e("OD", "called")
 
-        // Enter relevant functionality for when the last widget is disabled
-//        val appWidgetManager = AppWidgetManager.getInstance(context)
         val name = ComponentName(context, Widget1::class.java)
         val appWidgetIds = AppWidgetManager.getInstance(context).getAppWidgetIds(name)
 
         if (appWidgetIds.isEmpty()) {
             // stop alarm
-            val appWidgetAlarm = AppWidgetAlarm1(context.getApplicationContext())
-            appWidgetAlarm.stopAlarm()
+            val appWidgetAlarm = AppWidgetAlarm1(context.applicationContext)
+            appWidgetAlarm.stopAlarm(0, Widget1::class.java, ACTION_AUTO_UPDATE_W1)
         }
-
     }
 
     companion object {
-        const val ACTION_AUTO_UPDATE = "AUTO_UPDATE"
+        const val ACTION_AUTO_UPDATE_W1 = "AUTO_UPDATE"
     }
 }
 
@@ -90,7 +82,7 @@ internal fun updateAppWidget1(
     val views = RemoteViews(context.packageName, R.layout.widget1)
     Log.e("W1 up", "$appWidgetManager , $appWidgetId")
 
-    val widgetsDataHandlerDao = AppWidgetsDataHandlerDao();
+    val widgetsDataHandlerDao = AppWidgetsDataHandlerDao()
 
 
     val pref = context.getSharedPreferences("UsersSettingPref", MODE_PRIVATE)
@@ -125,7 +117,7 @@ internal fun updateAppWidget1(
     Log.e("Cho Chk", " $currentChoghadiya ")
     views.setTextViewText(R.id.choghadiyaTextViewW1, "Choghadiya : $currentChoghadiya")
 
-//    val currentChoghdiya =
+//    val currentChoghadiya =
 
     // Instruct the widget manager to update the widget
     appWidgetManager.updateAppWidget(appWidgetId, views)

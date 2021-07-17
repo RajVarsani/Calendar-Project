@@ -3,7 +3,7 @@
     package="com.example.thehinducalender">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -86,7 +86,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="ACTION_AUTO_UPDATE" />
+                <action android:name="ACTION_AUTO_UPDATE_W1" />
             </intent-filter>
 
             <meta-data

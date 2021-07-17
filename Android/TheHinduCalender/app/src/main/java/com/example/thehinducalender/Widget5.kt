@@ -35,6 +35,9 @@ class Widget5 : AppWidgetProvider() {
     override fun onDisabled(context: Context) {
         // Enter relevant functionality for when the last widget is disabled
     }
+    companion object {
+        const val ACTION_AUTO_UPDATE = "AUTO_UPDATE"
+    }
 }
 
 internal fun updateAppWidget5(
