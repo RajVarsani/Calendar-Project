@@ -9,7 +9,7 @@
 
 
     <RelativeLayout
-        android:id="@+id/topContentContainerW4"
+        android:id="@+id/topContentContainerW5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -17,17 +17,17 @@
 
 
         <TextClock
-            android:id="@+id/timeTextViewW4"
+            android:id="@+id/timeTextViewW5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginStart="20dp"
             android:gravity="center"
-            android:shadowColor="@color/w4_date_shadow_color"
+            android:shadowColor="@color/w5_date_shadow_color"
             android:shadowRadius="15"
             android:text="4:54 PM"
             android:textColor="@color/white"
@@ -35,14 +35,14 @@
             tools:ignore="HardcodedText,SpUsage" />
 
         <TextView
-            android:id="@+id/dateTextViewW4"
+            android:id="@+id/dateTextViewW5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:gravity="center"
-            android:shadowColor="@color/w4_date_shadow_color"
+            android:shadowColor="@color/w5_date_shadow_color"
             android:shadowRadius="15"
             android:text="1 Jan, 2021"
             android:textColor="@color/white"
@@ -51,7 +51,7 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:id="@+id/middleContentContainerW4"
+        android:id="@+id/middleContentContainerW5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -61,7 +61,7 @@
         <LinearLayout style="@style/HorizontalDividerView" />
 
         <LinearLayout
-            android:id="@+id/middleSubContentContainerW4"
+            android:id="@+id/middleSubContentContainerW5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -69,13 +69,13 @@
 
 
             <TextView
-                android:id="@+id/dayTextViewW4"
+                android:id="@+id/dayTextViewW5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="10dp"
                 android:gravity="center"
-                android:shadowColor="@color/w4_day_shadow_color"
+                android:shadowColor="@color/w5_day_shadow_color"
                 android:shadowRadius="15"
                 android:text="Friday - "
                 android:textColor="@color/white"
@@ -83,14 +83,14 @@
                 tools:ignore="HardcodedText,SpUsage" />
 
             <TextView
-                android:id="@+id/hinduDateW4P1"
+                android:id="@+id/hinduDateW5P1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginStart="1dp"
                 android:gravity="center"
-                android:shadowColor="@color/w4_hindu_date_shadow_color"
+                android:shadowColor="@color/w5_hindu_date_shadow_color"
                 android:shadowRadius="15"
                 android:text="Vikram Era 2077"
                 android:textColor="@color/white"
@@ -117,11 +117,12 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/zodiacSignW5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="11dp"
-                android:shadowColor="@color/w4_zodiac_sign_shadow_color"
+                android:shadowColor="@color/w5_zodiac_sign_shadow_color"
                 android:shadowRadius="15"
                 android:text="Gemini"
                 android:textColor="@color/white"
@@ -129,11 +130,12 @@
                 tools:ignore="HardcodedText,SpUsage" />
 
             <TextView
+                android:id="@+id/choghadiyaTextViewW5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="2dp"
-                android:shadowColor="@color/w4_zodiac_sign_shadow_color"
+                android:shadowColor="@color/w5_zodiac_sign_shadow_color"
                 android:shadowRadius="15"
                 android:text="Shubh -> Char"
                 android:textColor="@color/white"
@@ -150,12 +152,13 @@
             android:orientation="vertical">
 
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginTop="11dp"
                 android:gravity="center"
-                android:shadowColor="@color/w4_hindu_date_shadow_color"
+                android:shadowColor="@color/w5_hindu_date_shadow_color"
                 android:shadowRadius="15"
                 android:text=""
                 android:textColor="@color/white"
@@ -163,13 +166,13 @@
                 tools:ignore="HardcodedText,SpUsage" />
 
             <TextView
-                android:id="@+id/hinduDateW4P2"
+                android:id="@+id/hinduDateW5P2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:layout_marginTop="2dp"
                 android:gravity="center"
-                android:shadowColor="@color/w4_hindu_date_shadow_color"
+                android:shadowColor="@color/w5_hindu_date_shadow_color"
                 android:shadowRadius="15"
                 android:text="Magshar Ved Bij"
                 android:textColor="@color/white"
