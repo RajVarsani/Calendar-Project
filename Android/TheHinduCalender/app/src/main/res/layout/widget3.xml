@@ -82,6 +82,7 @@
 
 
     <TextView
+        android:id="@+id/zodiacSignW3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -94,6 +95,7 @@
         tools:ignore="HardcodedText,SpUsage" />
 
     <TextView
+        android:id="@+id/choghadiyaTextViewW3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
