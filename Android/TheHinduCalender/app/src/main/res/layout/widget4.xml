@@ -135,6 +135,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/zodiacSignW4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
@@ -148,6 +149,7 @@
                 tools:ignore="HardcodedText,SpUsage" />
 
             <TextView
+                android:id="@+id/choghadiyaTextViewW4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
