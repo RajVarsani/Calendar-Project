@@ -16,7 +16,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="ACTION_AUTO_UPDATE" />
+                <action android:name="ACTION_AUTO_UPDATE_W5" />
             </intent-filter>
 
             <meta-data
@@ -37,7 +37,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="ACTION_AUTO_UPDATE" />
+                <action android:name="ACTION_AUTO_UPDATE_W4" />
             </intent-filter>
 
             <meta-data
@@ -58,7 +58,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="ACTION_AUTO_UPDATE" />
+                <action android:name="ACTION_AUTO_UPDATE_W3" />
             </intent-filter>
 
             <meta-data
@@ -72,7 +72,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="ACTION_AUTO_UPDATE" />
+                <action android:name="ACTION_AUTO_UPDATE_W2" />
             </intent-filter>
 
             <meta-data
