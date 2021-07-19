@@ -168,7 +168,19 @@ class AppWidgetsDataHandlerDao {
         return choghadiyaByIndexW(choghadiyaIndex, currentDayOfWeekW(), languageChoice)
     }
 
-    fun choghadiyaByIndexW(
+    fun nextChoghadiya(languageChoice: Int): String? {
+        val choghadiyaIndex = choghadiyaIndexByHourAndMinutesW(currentHourW(), currentMinuteW())
+        if (choghadiyaIndex < 11) {
+            return choghadiyaByIndexW(choghadiyaIndex+1, currentDayOfWeekW(), languageChoice)
+        }
+
+        if (currentDayOfWeekW() <= 6) {
+            return choghadiyaByIndexW(0, currentDayOfWeekW(), languageChoice)
+        }
+        return choghadiyaByIndexW(0, 1, languageChoice)
+    }
+
+    private fun choghadiyaByIndexW(
         choghadiyaIndex: Int,
         dayOfWeek: Int,
         languageChoice: Int
