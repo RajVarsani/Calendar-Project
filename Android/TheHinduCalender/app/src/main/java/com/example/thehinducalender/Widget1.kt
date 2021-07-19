@@ -87,14 +87,14 @@ internal fun updateAppWidget1(
 
     val pref = context.getSharedPreferences("UsersSettingPref", MODE_PRIVATE)
     val langPref = pref.getInt("LanguagePreference", 0)
-    Log.e("Lang Pref", " $langPref")
+//    Log.e("Lang Pref", " $langPref")
 
 
     widgetsDataHandlerDao.loadJsonDataFromAssets(context, langPref)
 
 
     val dayOfWeekText = widgetsDataHandlerDao.getCurrentDayOfWeek(langPref)
-    Log.e("DOW", " $dayOfWeekText ")
+//    Log.e("DOW", " $dayOfWeekText ")
     views.setTextViewText(R.id.dayTextViewW1, dayOfWeekText)
 
 
@@ -107,14 +107,14 @@ internal fun updateAppWidget1(
     )
     val hinduDate =
         widgetsDataHandlerDao.currentHinduYearInFormatForWidgets() + " / " + tithiDate
-    Log.e("Dt chk", " $hinduDate")
-    Log.e("Dt chk", " $zodiacSign")
+//    Log.e("Dt chk", " $hinduDate")
+//    Log.e("Dt chk", " $zodiacSign")
     views.setTextViewText(R.id.hinduDateW1, hinduDate)
     views.setTextViewText(R.id.zodiacSignW1, zodiacSign)
 
 
     val currentChoghadiya = widgetsDataHandlerDao.currentChoghadiya(langPref)
-    Log.e("Cho Chk", " $currentChoghadiya ")
+//    Log.e("Cho Chk", " $currentChoghadiya ")
     views.setTextViewText(R.id.choghadiyaTextViewW1, "Choghadiya : $currentChoghadiya")
 
 //    val currentChoghadiya =
