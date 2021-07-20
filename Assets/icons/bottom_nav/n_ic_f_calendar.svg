@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="60" viewBox="0 0 72 60">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ff6f00;
+      }
+
+      .cls-1 {
+        stroke: #ff6f00;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-1" width="72" height="13" transform="translate(266 2078.461)"/>
+    </clipPath>
+  </defs>
+  <g id="calendar_fill" transform="translate(-266 -2076.461)">
+    <path id="Rectangle_63" data-name="Rectangle 63" class="cls-2" d="M6,2A4,4,0,0,0,2,6V54a4,4,0,0,0,4,4H66a4,4,0,0,0,4-4V6a4,4,0,0,0-4-4H6M6,0H66a6,6,0,0,1,6,6V54a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" transform="translate(266 2076.461)"/>
+    <g id="Group_105" data-name="Group 105" transform="translate(271.538 2094.385)">
+      <rect id="Rectangle_66" data-name="Rectangle 66" class="cls-3" width="56" height="11" rx="4" transform="translate(2.462 21.077)"/>
+      <path id="Rectangle_66_-_Outline" data-name="Rectangle 66 - Outline" class="cls-2" d="M4,2A2,2,0,0,0,2,4V7A2,2,0,0,0,4,9H52a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H52a4,4,0,0,1,4,4V7a4,4,0,0,1-4,4H4A4,4,0,0,1,0,7V4A4,4,0,0,1,4,0Z" transform="translate(2.462 21.077)"/>
+      <rect id="Rectangle_66-2" data-name="Rectangle 66" class="cls-3" width="56" height="11" rx="4" transform="translate(2.462 4.077)"/>
+      <path id="Rectangle_66_-_Outline-2" data-name="Rectangle 66 - Outline" class="cls-2" d="M4,2A2,2,0,0,0,2,4V7A2,2,0,0,0,4,9H52a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H52a4,4,0,0,1,4,4V7a4,4,0,0,1-4,4H4A4,4,0,0,1,0,7V4A4,4,0,0,1,4,0Z" transform="translate(2.462 4.077)"/>
+    </g>
+    <g id="Mask_Group_3" data-name="Mask Group 3" class="cls-4" transform="translate(0 -2)">
+      <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-2" width="72" height="53" rx="6" transform="translate(266 2078.461)"/>
+      <path id="Rectangle_76_-_Outline" data-name="Rectangle 76 - Outline" class="cls-2" d="M6,2A4,4,0,0,0,2,6V47a4,4,0,0,0,4,4H66a4,4,0,0,0,4-4V6a4,4,0,0,0-4-4H6M6,0H66a6,6,0,0,1,6,6V47a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0Z" transform="translate(266 2078.461)"/>
+    </g>
+  </g>
+</svg>

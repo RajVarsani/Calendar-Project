@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="widgets_empty" transform="translate(-708 -2083)">
+    <g id="Rectangle_72" data-name="Rectangle 72" class="cls-1" transform="translate(708 2083)">
+      <rect class="cls-2" width="25" height="25" rx="5"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="22" height="22" rx="3.5"/>
+    </g>
+    <g id="Rectangle_73" data-name="Rectangle 73" class="cls-1" transform="translate(708 2114)">
+      <rect class="cls-2" width="25" height="25" rx="5"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="22" height="22" rx="3.5"/>
+    </g>
+    <g id="Rectangle_74" data-name="Rectangle 74" class="cls-1" transform="translate(739 2114)">
+      <rect class="cls-2" width="25" height="25" rx="5"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="22" height="22" rx="3.5"/>
+    </g>
+    <g id="Rectangle_75" data-name="Rectangle 75" class="cls-1" transform="translate(739 2083.793)">
+      <rect class="cls-2" width="24.965" height="24.965" rx="5"/>
+      <rect class="cls-3" x="1.5" y="1.5" width="21.965" height="21.965" rx="3.5"/>
+    </g>
+  </g>
+</svg>
