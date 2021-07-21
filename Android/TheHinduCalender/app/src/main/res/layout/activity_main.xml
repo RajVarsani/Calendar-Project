@@ -6,27 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <com.factor.bouncy.BouncyNestedScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent">-->
+    <!--    <com.factor.bouncy.BouncyNestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent">-->
 
-<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent">-->
+    <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
 
-            <FrameLayout
-                android:id="@+id/mainFragmentFrameLayout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintTop_toTopOf="parent"
-                />
+    <FrameLayout
+        android:id="@+id/mainFragmentFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <include
+        layout="@layout/navbar"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
-<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-<!--    </com.factor.bouncy.BouncyNestedScrollView>-->
+    <!--    </com.factor.bouncy.BouncyNestedScrollView>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
