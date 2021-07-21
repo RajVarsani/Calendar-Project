@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/navbar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navbar_height"
+        android:layout_marginHorizontal="5dp"
+        android:background="@drawable/n_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navbar_child_1"
+        android:layout_width="@dimen/navbar_height"
+        android:layout_height="@dimen/navbar_height"
+        android:background="@drawable/n_child_transition_drawable"
+        app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
+        app:layout_constraintEnd_toStartOf="@id/navbar_child_2"
+        app:layout_constraintStart_toStartOf="@id/navbar_bg"
+        app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+
+        <ImageView
+            android:id="@+id/n_child_1_e"
+            android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="@dimen/navbar_icon_dim"
+            android:alpha="1"
+            android:src="@drawable/n_ic_e_calendar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/n_child_1_f"
+            android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="@dimen/navbar_icon_dim"
+            android:alpha="0"
+            android:src="@drawable/n_ic_f_calendar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navbar_child_2"
+        android:layout_width="@dimen/navbar_height"
+        android:layout_height="@dimen/navbar_height"
+        app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
+        app:layout_constraintEnd_toStartOf="@id/navbar_child_3"
+        app:layout_constraintStart_toEndOf="@id/navbar_child_1"
+        app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navbar_child_3"
+        android:layout_width="@dimen/navbar_height"
+        android:layout_height="@dimen/navbar_height"
+        app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
+        app:layout_constraintEnd_toStartOf="@id/navbar_child_4"
+        app:layout_constraintStart_toEndOf="@id/navbar_child_2"
+        app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navbar_child_4"
+        android:layout_width="@dimen/navbar_height"
+        android:layout_height="@dimen/navbar_height"
+        app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
+        app:layout_constraintEnd_toStartOf="@id/navbar_child_5"
+        app:layout_constraintStart_toEndOf="@id/navbar_child_3"
+        app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navbar_child_5"
+        android:layout_width="@dimen/navbar_height"
+        android:layout_height="@dimen/navbar_height"
+        app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/navbar_child_4"
+        app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
