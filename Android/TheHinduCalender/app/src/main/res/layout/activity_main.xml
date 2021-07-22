@@ -24,6 +24,7 @@
 
     <include
         layout="@layout/navbar"
+        android:id="@+id/navBarInclude"
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
