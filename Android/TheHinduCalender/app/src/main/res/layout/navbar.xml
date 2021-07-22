@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <View
         android:id="@+id/navbar_bg"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/navbar_height"
+        android:layout_height="@dimen/navbar_width"
         android:layout_marginHorizontal="5dp"
         android:background="@drawable/n_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,9 +18,10 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/navbar_child_1"
-        android:layout_width="@dimen/navbar_height"
-        android:layout_height="@dimen/navbar_height"
+        android:layout_width="@dimen/navbar_width"
+        android:layout_height="@dimen/navbar_width"
         android:background="@drawable/n_child_transition_drawable"
+        android:padding="0dp"
         app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
         app:layout_constraintEnd_toStartOf="@id/navbar_child_2"
         app:layout_constraintStart_toStartOf="@id/navbar_bg"
@@ -29,21 +31,23 @@
         <ImageView
             android:id="@+id/n_child_1_e"
             android:layout_width="@dimen/navbar_icon_dim"
-            android:layout_height="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
             android:alpha="1"
-            android:src="@drawable/n_ic_e_calendar"
+            android:src="@drawable/n_ic_e_fesivals_list"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
 
         <ImageView
             android:id="@+id/n_child_1_f"
-            android:layout_width="@dimen/navbar_icon_dim"
-            android:layout_height="@dimen/navbar_icon_dim"
+              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
             android:alpha="0"
-            android:src="@drawable/n_ic_f_calendar"
+            android:contentDescription="@string/navbar_calender_button"
+            android:src="@drawable/n_ic_f_fesivals_list"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,46 +58,155 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/navbar_child_2"
-        android:layout_width="@dimen/navbar_height"
-        android:layout_height="@dimen/navbar_height"
+        android:layout_width="@dimen/navbar_width"
+        android:layout_height="@dimen/navbar_width"
+        android:background="@drawable/n_child_transition_drawable"
+
         app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
         app:layout_constraintEnd_toStartOf="@id/navbar_child_3"
         app:layout_constraintStart_toEndOf="@id/navbar_child_1"
         app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+        <ImageView
+            android:id="@+id/n_child_2_e"
+            android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:src="@drawable/n_ic_e_calendar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/n_child_2_f"
+              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:contentDescription="@string/navbar_calender_button"
+            android:src="@drawable/n_ic_f_calendar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/navbar_child_3"
-        android:layout_width="@dimen/navbar_height"
-        android:layout_height="@dimen/navbar_height"
+        android:layout_width="@dimen/navbar_width"
+        android:layout_height="@dimen/navbar_width"
+        android:background="@drawable/n_child_transition_drawable"
         app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
         app:layout_constraintEnd_toStartOf="@id/navbar_child_4"
         app:layout_constraintStart_toEndOf="@id/navbar_child_2"
         app:layout_constraintTop_toTopOf="@id/navbar_bg">
 
+        <ImageView
+            android:id="@+id/n_child_3_e"
+            android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:src="@drawable/n_ic_e_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/n_child_3_f"
+              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:contentDescription="@string/navbar_calender_button"
+            android:src="@drawable/n_ic_f_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/navbar_child_4"
-        android:layout_width="@dimen/navbar_height"
-        android:layout_height="@dimen/navbar_height"
+        android:layout_width="@dimen/navbar_width"
+        android:layout_height="@dimen/navbar_width"
+
+        android:background="@drawable/n_child_transition_drawable"
         app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
         app:layout_constraintEnd_toStartOf="@id/navbar_child_5"
         app:layout_constraintStart_toEndOf="@id/navbar_child_3"
         app:layout_constraintTop_toTopOf="@id/navbar_bg">
 
+        <ImageView
+            android:id="@+id/n_child_4_e"
+            android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:src="@drawable/n_ic_e_widgets"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/n_child_4_f"
+              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:contentDescription="@string/navbar_calender_button"
+            android:src="@drawable/n_ic_f_widgets"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/navbar_child_5"
-        android:layout_width="@dimen/navbar_height"
-        android:layout_height="@dimen/navbar_height"
+        android:layout_width="@dimen/navbar_width"
+        android:layout_height="@dimen/navbar_width"
+        android:background="@drawable/n_child_transition_drawable"
         app:layout_constraintBottom_toBottomOf="@id/navbar_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/navbar_child_4"
         app:layout_constraintTop_toTopOf="@id/navbar_bg">
+
+        <ImageView
+            android:id="@+id/n_child_5_e"
+            android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:src="@drawable/n_ic_e_donate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/n_child_5_f"
+              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:contentDescription="@string/navbar_calender_button"
+            android:src="@drawable/n_ic_f_donate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
