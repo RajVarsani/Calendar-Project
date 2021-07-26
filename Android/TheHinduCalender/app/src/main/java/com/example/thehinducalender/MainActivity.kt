@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.fragment.app.Fragment
 import com.example.thehinducalender.animators.NavbarAnimator
 import com.example.thehinducalender.daos.DisplayDensityDao
 
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var festivalsAndHolidaysListFragment: FestivalsAndHolidaysListFragment
     private lateinit var mainCalenderFragment: MainCalenderFragment
     private lateinit var widgetsListFragment: WidgetsListFragment
+
     private lateinit var navbarAnimator: NavbarAnimator
     private lateinit var displayDensityDao: DisplayDensityDao
 
@@ -92,22 +94,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-//        navbar_child_1.setOnClickListener {
-//            Log.e("NAV ANIM CHK", "clicked")
-//            tempBull = if (tempBull) {
-//                navbarAnimator.setActive(
-//                    navbar_child_1,
-//                    n_child_1_e,
-//                    n_child_1_f,
-//                    400,
-//                    displayDensityDao.getPx(25)
-//                )
-//                false
-//            } else {
-//                navbarAnimator.setInactive(navbar_child_1, n_child_1_e, n_child_1_f, 300)
-//                true
-//            }
-//        }
     }
 
     private fun setThisCurrentFragment(i: Int) {
@@ -115,7 +101,7 @@ class MainActivity : AppCompatActivity() {
             navbarButtons[currentActiveFragment],
             navbarButtonsInactiveImages[currentActiveFragment],
             navbarButtonsActiveImages[currentActiveFragment],
-            300
+            130
         )
 
         currentActiveFragment = i
@@ -124,7 +110,7 @@ class MainActivity : AppCompatActivity() {
             navbarButtons[currentActiveFragment],
             navbarButtonsInactiveImages[currentActiveFragment],
             navbarButtonsActiveImages[currentActiveFragment],
-            400,
+            160,
             displayDensityDao.getPx(25)
         )
     }
@@ -135,42 +121,5 @@ class MainActivity : AppCompatActivity() {
             commit()
         }
     }
-
-//    override fun onClick(v: View?) {
-//        if (v != null) {
-//            when (v.id) {
-//                R.id.navbar_child_1 -> {
-//                    setCurrentActiveFragment(0)
-//                }
-//                R.id.navbar_child_2 -> {
-//                    setCurrentActiveFragment(0)
-//                }
-//                R.id.navbar_child_3 -> {
-//                    setCurrentActiveFragment(0)
-//                }
-//                R.id.navbar_child_4 -> {
-//                    setCurrentActiveFragment(0)
-//                }
-//                R.id.navbar_child_5 -> {
-//                    setCurrentActiveFragment(0)
-//                }
-//            }
-//        }
-//    }
-
-//    private fun setCurrentActiveFragment(i: Int) {
-//
-//        navbarAnimator.setActive(
-//            navbarButtons[i],
-//            n_child_1_e,
-//            n_child_1_f,
-//            400,
-//            displayDensityDao.getPx(25)
-//        )
-//        currentActiveFragment = i
-//
-//
-//    }
-
 
 }

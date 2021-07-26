@@ -43,7 +43,7 @@
 
         <ImageView
             android:id="@+id/n_child_1_f"
-              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_width="@dimen/navbar_icon_dim"
             android:layout_height="wrap_content"
             android:alpha="0"
             android:contentDescription="@string/navbar_calender_button"
@@ -82,7 +82,7 @@
 
         <ImageView
             android:id="@+id/n_child_2_f"
-              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_width="@dimen/navbar_icon_dim"
             android:layout_height="wrap_content"
             android:alpha="0"
             android:contentDescription="@string/navbar_calender_button"
@@ -120,7 +120,7 @@
 
         <ImageView
             android:id="@+id/n_child_3_f"
-              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_width="@dimen/navbar_icon_dim"
             android:layout_height="wrap_content"
             android:alpha="0"
             android:contentDescription="@string/navbar_calender_button"
@@ -159,7 +159,7 @@
 
         <ImageView
             android:id="@+id/n_child_4_f"
-              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_width="@dimen/navbar_icon_dim"
             android:layout_height="wrap_content"
             android:alpha="0"
             android:contentDescription="@string/navbar_calender_button"
@@ -197,7 +197,7 @@
 
         <ImageView
             android:id="@+id/n_child_5_f"
-              android:layout_width="@dimen/navbar_icon_dim"
+            android:layout_width="@dimen/navbar_icon_dim"
             android:layout_height="wrap_content"
             android:alpha="0"
             android:contentDescription="@string/navbar_calender_button"

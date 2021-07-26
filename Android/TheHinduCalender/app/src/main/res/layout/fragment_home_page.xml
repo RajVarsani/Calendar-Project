@@ -25,6 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
+                tools:listitem="@layout/home_page_festivals_list_recycler_view_layout"
                 tools:itemCount="1" />
 
             <include layout="@layout/choghdiya_contaier_layout" />
